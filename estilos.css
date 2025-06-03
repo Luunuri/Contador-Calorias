@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form {
+    margin: 20px 0;
+}
+
+form input, form select {
+    margin-right: 10px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 10 px;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.card.comida {
+    background-color: #e6ffe6;
+}
+
+.card.ejercicio {
+    background-color: #fff0cc;
+}
+
+.positiva {
+    color: green;
+}
+
+.negativa {
+    color: red;
+}
+
